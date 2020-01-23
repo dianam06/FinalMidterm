@@ -1,8 +1,10 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-
+  
 <style>
 .correct{
   background:green;
@@ -84,7 +86,7 @@ function onChange(evt) {
     $(this)
       .removeClass("correct")
       .addClass("incorrect");
-    if (Math.random() > 0.3) {
+    if (Math.random() > 0.2) {
       sad.play();
     }
   }
